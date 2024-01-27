@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="15" passed="12" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-26T12:28:12 IST" name="Surefire suite" finished-at="2023-12-26T12:28:44 IST" duration-ms="32428">
+    <groups>
+    </groups>
+    <test started-at="2023-12-26T12:28:12 IST" name="Surefire test" finished-at="2023-12-26T12:28:44 IST" duration-ms="32428">
+      <class name="testNGDemo.TestDemo2">
+        <test-method signature="ChromeTest()[pri:1, instance:testNGDemo.TestDemo2@1b083826]" started-at="2023-12-26T12:28:12 IST" name="ChromeTest" finished-at="2023-12-26T12:28:21 IST" duration-ms="9533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChromeTest -->
+        <test-method signature="FirefoxTest()[pri:2, instance:testNGDemo.TestDemo2@1b083826]" started-at="2023-12-26T12:28:21 IST" name="FirefoxTest" finished-at="2023-12-26T12:28:31 IST" duration-ms="10128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirefoxTest -->
+        <test-method signature="EdgeTest()[pri:3, instance:testNGDemo.TestDemo2@1b083826]" started-at="2023-12-26T12:28:31 IST" name="EdgeTest" finished-at="2023-12-26T12:28:44 IST" duration-ms="12488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EdgeTest -->
+      </class> <!-- testNGDemo.TestDemo2 -->
+      <class name="testNGDemo.TestDemo1">
+        <test-method signature="TestCase1()[pri:0, instance:testNGDemo.TestDemo1@45f45fa1]" started-at="2023-12-26T12:28:12 IST" name="TestCase1" finished-at="2023-12-26T12:28:12 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method signature="TestCase2()[pri:0, instance:testNGDemo.TestDemo1@45f45fa1]" started-at="2023-12-26T12:28:12 IST" name="TestCase2" finished-at="2023-12-26T12:28:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+      </class> <!-- testNGDemo.TestDemo1 -->
+      <class name="testNGDemo.TestDemo3_Priority">
+        <test-method signature="registerTest()[pri:1, instance:testNGDemo.TestDemo3_Priority@105fece7]" started-at="2023-12-26T12:28:44 IST" name="registerTest" description="This is first test case" finished-at="2023-12-26T12:28:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method signature="loginTest()[pri:2, instance:testNGDemo.TestDemo3_Priority@105fece7]" started-at="2023-12-26T12:28:44 IST" name="loginTest" description="This is second test case" finished-at="2023-12-26T12:28:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="searchProductTest()[pri:3, instance:testNGDemo.TestDemo3_Priority@105fece7]" started-at="2023-12-26T12:28:44 IST" name="searchProductTest" description="This is third test case" finished-at="2023-12-26T12:28:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method signature="addToCartTest()[pri:4, instance:testNGDemo.TestDemo3_Priority@105fece7]" started-at="2023-12-26T12:28:44 IST" name="addToCartTest" description="This is my fouth test case" finished-at="2023-12-26T12:28:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+      </class> <!-- testNGDemo.TestDemo3_Priority -->
+      <class name="testNGDemo.TestDisableFromExecution">
+        <test-method signature="teatCase1()[pri:0, instance:testNGDemo.TestDisableFromExecution@7d68ef40]" started-at="2023-12-26T12:28:44 IST" name="teatCase1" finished-at="2023-12-26T12:28:44 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatCase1 -->
+        <test-method signature="teatCase2()[pri:0, instance:testNGDemo.TestDisableFromExecution@7d68ef40]" started-at="2023-12-26T12:28:44 IST" name="teatCase2" finished-at="2023-12-26T12:28:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatCase2 -->
+        <test-method signature="testCase4()[pri:0, instance:testNGDemo.TestDisableFromExecution@7d68ef40]" started-at="2023-12-26T12:28:44 IST" name="testCase4" finished-at="2023-12-26T12:28:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+      </class> <!-- testNGDemo.TestDisableFromExecution -->
+      <class name="testNGDemo.TestDependsOnMethod">
+        <test-method signature="register()[pri:1, instance:testNGDemo.TestDependsOnMethod@123f1134]" started-at="2023-12-26T12:28:44 IST" name="register" finished-at="2023-12-26T12:28:44 IST" duration-ms="29" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at testNGDemo.TestDependsOnMethod.register(TestDependsOnMethod.java:15)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method signature="login()[pri:2, instance:testNGDemo.TestDependsOnMethod@123f1134]" started-at="2023-12-26T12:28:44 IST" name="login" finished-at="2023-12-26T12:28:44 IST" depends-on-methods="testNGDemo.TestDependsOnMethod.register" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method testNGDemo.TestDependsOnMethod.login() on instance testNGDemo.TestDependsOnMethod@123f1134 depends on not successfully finished methods 
+[testNGDemo.TestDependsOnMethod.register() on instance testNGDemo.TestDependsOnMethod@123f1134]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method testNGDemo.TestDependsOnMethod.login() on instance testNGDemo.TestDependsOnMethod@123f1134 depends on not successfully finished methods 
+[testNGDemo.TestDependsOnMethod.register() on instance testNGDemo.TestDependsOnMethod@123f1134]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:150)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testNGDemo.TestDependsOnMethod -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
